@@ -13,7 +13,7 @@ if (file is not None):
 #         st.write(df)
 
 st.subheader('Show Image directly')
-st.image("C:/Users/41782/Desktop/Streamlit/img.png")
+st.image("img.png")
 
 st.subheader('Uploading image file')
 img_file = st.file_uploader('Upload Image file', type = ['png', 'jpeg'])
